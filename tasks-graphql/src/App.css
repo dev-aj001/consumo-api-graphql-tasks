@@ -1,0 +1,70 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #313131;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+#create-input {
+  display: flex;
+  column-gap: 15px;
+}
+
+.task-list {
+  background-color: #202020;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+  padding: 10px 0;
+}
+
+.task-item:last-child {
+  border-bottom: none;
+}
+
+.task-title {
+  font-size: 16px;
+  color: #333;
+}
+
+.task-completed {
+  color: green;
+  font-weight: bold;
+}
+
+.task-incomplete {
+  color: red;
+  font-weight: bold;
+}
+
+.button-create {
+  background-color: rgb(42, 165, 69);
+}
+
+
+.button-delete {
+  background-color: brown;
+}
+
+.button-update {
+  background-color: rgb(42, 165, 155);
+}
